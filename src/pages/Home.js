@@ -1,12 +1,18 @@
-    import React from 'react'
+import React, {useState} from 'react'
+import Popup from '../popup/Popup'
     
-    const Home = () => {
-        return (
-            <div className='home'>
-                <h1>Home</h1> 
-            </div>
-        )
-    }
-    
-    export default Home
+const Home = () => {
+
+    const [openPopUp, setOpenPopUp] = useState(true)
+
+    return (
+        <div className='home'>
+            <h1>Home</h1> 
+            <Popup title='Sign Up Page' openPopup={openPopUp} setOpenPopUp={setOpenPopUp}>
+            </Popup>
+        </div>
+    )
+}
+
+export default Home
     

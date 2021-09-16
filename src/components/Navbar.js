@@ -1,14 +1,15 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import * as FaIcons from "react-icons/fa"
 import * as RiIcons from "react-icons/ri"
 import {SidebarData} from './SidebarData'
+import SignUp from '../popup/SignUp';
 import './Navbar.css'
 
 const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [header, setHeader] = useState('')
-
+    
     return (
         <>
             <div className="container-fluid navbar">
@@ -18,8 +19,12 @@ const Navbar = () => {
                         {sidebar ? <RiIcons.RiEyeCloseLine/> : <FaIcons.FaBars />}
                         </div>
 
+                        <div className='col header mx-5 mt-2'>
+                            {header ? header : `Welcome`}
+                        </div>
+
                         <div className='col header'>
-                            {header ? header : 'Welcome'}
+                            <button className='btn btn-dark mx-5 mt-1'>Logout</button>
                         </div>
                     </div>
                 </Link>

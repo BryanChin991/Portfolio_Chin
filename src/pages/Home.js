@@ -36,6 +36,16 @@ const Home = () => {
                     )
                 })}
             </div>
+
+            <article className='container mt-3'>
+                Key strength in effective communication, data analysis & system improvement. Enthusiast in programming languages (Python, JavaScript, SQL) and data management, seeking the opportunity to involve in Data Scientist Career.
+                Participated in Kaggle competition (the world’s largest community of data scientists), and finished at top 20% out of 7,573 teams by building an XGBRegressor model with k-fold technique, Optuna framework and feature engineering.
+                Visit link below for detail <a href='https://gist.github.com/BryanChin991/24250ccc9e7eb8b6ad2bfc4dd0cff8d2'>here</a>
+
+                Project leader in Big Data such as Supervisory Control and Data Acquisition (SCADA), and Manufacturing execution systems (MES) for raw data collection improvement. Developed machine indices dashboard using Excel Power Query for machine failure early prediction. Key person in department to analyze and manage production volume in order to meet production schedule, to ensure smooth production flow, estimate worker overtime, outsourcing material volume and budget segregation.
+
+                Successfully obtained LinkedIn Skill Assessment badge in Python language, familiar with SQL, Django (python web frontend framework) and React (backend framework)
+            </article>
         </>
     )
 }

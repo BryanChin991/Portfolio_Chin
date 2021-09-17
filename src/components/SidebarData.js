@@ -1,7 +1,7 @@
 //  imr shortcut key
 import React from 'react'
 import * as FaIcons from "react-icons/fa"
-import * as RiIcons from "react-icons/ri"
+import * as GiIcons from "react-icons/gi"
 import * as IoIcons from "react-icons/io"
 import * as AiIcons from "react-icons/ai"
 import * as SiIcons from "react-icons/si"
@@ -23,6 +23,12 @@ export const SidebarData = [
         title: 'About',
         path: '/about',
         icon: <SiIcons.SiAboutDotMe />,
+        cName: 'nav-text',
+    },
+    {
+        title: 'Qualification',
+        path: '/qualification',
+        icon: <GiIcons.GiMedallist />,
         cName: 'nav-text',
     },
 

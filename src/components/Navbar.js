@@ -15,19 +15,18 @@ const Navbar = () => {
             <div className="container-fluid navbar">
                 <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
                     <div className='row'>
-                        <div className='col'>
+                        <div className='col-2'>
                         {sidebar ? <RiIcons.RiEyeCloseLine/> : <FaIcons.FaBars />}
-                        </div>
-
-                        <div className='col header mx-5 mt-2'>
-                            {header ? header : `Welcome`}
-                        </div>
-
-                        <div className='col header'>
-                            <button className='btn btn-dark mx-5 mt-1'>Logout</button>
                         </div>
                     </div>
                 </Link>
+
+                <div className='col header'>
+                    {header ? header : `Welcome`}
+                </div>
+                <div className='col header'>
+                    <button className='btn btn-sm btn-dark offset-10 p-0'>Logout</button>
+                </div>
             </div>
 
             {/* click for on and off side bar */}

@@ -7,11 +7,67 @@
   font-family: "Lato", sans-serif;
 }
 
-.home,
 .signup {
   display: flex;
-  height: 90vh;
+  /* height: 10vh; */
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+.slider {
+  position: relative;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImg {
+  width: 700px;
+  height: 420px;
+  border-radius: 10px;
+}
+
+.myImg:hover {
+  transition-duration: 0.75s;
+  transform: scale(1.1);
+}
+
+.right-arrow {
+  z-index: 10;
+  position: absolute;
+  /* top: 50%; */
+  right: 210px;
+  font-size: 3rem;
+  color: lightgray;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  color: black;
+}
+
+.left-arrow {
+  z-index: 10;
+  position: absolute;
+  /* top: 50%; */
+  left: 210px;
+  font-size: 3rem;
+  color: lightgray;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
 }

@@ -5,13 +5,19 @@ import * as RiIcons from "react-icons/ri"
 import {SidebarData} from './SidebarData'
 import SignUp from '../popup/SignUp';
 import './Navbar.css'
+import Popup from '../popup/Popup';
 
 const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [header, setHeader] = useState('')
+    const [openPopUp, setOpenPopUp] = useState(false) // set later to true
     
     return (
         <>
+            <div className='home'>
+                <Popup title='Sign Up Page' openPopup={openPopUp} setOpenPopUp={setOpenPopUp}/>
+            </div>
+
             <div className="container-fluid navbar">
                 <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
                     <div className='row'>

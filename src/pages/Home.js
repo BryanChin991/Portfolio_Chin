@@ -6,7 +6,6 @@ import { Slide } from '@material-ui/core'
     
 const Home = () => {
 
-    const [openPopUp, setOpenPopUp] = useState(true) // set later to true
     const [current, setCurrent] = useState(0)
 
     const leftClick = ()=>{
@@ -21,10 +20,6 @@ const Home = () => {
 
     return (
         <>
-            <div className='home'>
-                <Popup title='Sign Up Page' openPopup={openPopUp} setOpenPopUp={setOpenPopUp}/>
-            </div>
-
             <div className='slider'>
                 <Cgcons.CgChevronDoubleLeft className='left-arrow' onClick={leftClick}/>
                 <Cgcons.CgChevronDoubleRight className='right-arrow' onClick={RightClick}/>

@@ -2,7 +2,7 @@
 import React from 'react'
 import * as FaIcons from "react-icons/fa"
 import * as GiIcons from "react-icons/gi"
-import * as IoIcons from "react-icons/io"
+import * as MdIcons from "react-icons/md"
 import * as AiIcons from "react-icons/ai"
 import * as SiIcons from "react-icons/si"
 
@@ -11,6 +11,12 @@ export const SidebarData = [
         title: 'Home',
         path: '/',
         icon: <FaIcons.FaHome />,
+        cName: 'nav-text',
+    },
+    {
+        title: 'Experiences',
+        path: '/experience',
+        icon: <MdIcons.MdWork />,
         cName: 'nav-text',
     },
     {

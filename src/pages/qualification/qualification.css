@@ -1,0 +1,26 @@
+.upm_row {
+  margin-top: 250px;
+  padding: 20px;
+}
+
+.col_content img {
+  width: 300px;
+  height: 50%;
+}
+
+.upm_cert {
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-color: gray;
+}
+
+.row_desc p {
+  margin: 5px 0 15px 25px;
+  padding: 10px;
+}
+
+.ibm_size {
+  transform: scale(0.7);
+  margin-left: 80px;
+}

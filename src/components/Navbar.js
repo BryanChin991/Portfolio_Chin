@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Popup title='Sign Up Page' openPopup={openPopUp} setOpenPopUp={setOpenPopUp}/>
             </div>
 
-            <div className="container-fluid navbar">
+            <div className="container-fluid navbar fixed-top">
                 <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
                     <div className='row'>
                         <div className='col-2'>

@@ -1,0 +1,10 @@
+footer {
+  background-color: black;
+  color: white;
+  margin: 50px 0 0 0;
+  padding: 15px 0px;
+}
+
+.list-unstyled {
+  list-style: none;
+}

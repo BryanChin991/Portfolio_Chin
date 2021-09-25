@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/home/Home';
 import Qualification from './pages/qualification/Qualification';
 import Projects from './pages/projects/Projects';
+import Experience from './pages/experience/Experience';
 
 function App() {
   // Navbar with react-router-dom
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/qualification' exact component={Qualification} />
         <Route path='/projects' exact component={Projects} />
+        <Route path='/experience' exact component={Experience} />
 
       </Switch>
     </Router>

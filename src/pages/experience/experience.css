@@ -1,0 +1,129 @@
+:root {
+  --spacing: 0.1rem;
+  --transition: all 0.3s linear;
+  --max-width: 1170px;
+}
+
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.section {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 1170px;
+}
+
+.job-title {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.job-btn {
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  letter-spacing: var(--spacing);
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+  padding: 0.25rem 0;
+  line-height: 1;
+  /* outline-color: aqua; */
+}
+
+.job-btn:hover,
+.active-btn {
+  color: rgb(79, 121, 17);
+  box-shadow: 0 3px rgb(79, 121, 17);
+}
+
+.job-info h3 {
+  font-weight: 400;
+}
+
+.job-info h4 {
+  text-transform: uppercase;
+  color: white;
+  background: rgb(44, 68, 7);
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  border-radius: 10px;
+}
+
+.job-year {
+  letter-spacing: var(--spacing);
+}
+
+.job-desc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.job-desc p {
+  margin-bottom: 0;
+  color: rgb(88, 86, 86);
+}
+
+.job-icon {
+  color: rgb(44, 68, 7);
+}
+
+@media screen and (min-width: 768px) {
+  .job-title {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .job-btn {
+    margin-bottom: 1rem;
+  }
+
+  .active-btn,
+  .job-btn:hover {
+    box-shadow: -3px 0 rgb(79, 121, 17);
+  }
+}

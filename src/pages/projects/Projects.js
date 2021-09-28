@@ -8,7 +8,11 @@ const Projects = () => {
     return (
         <>
             <div>
-                <h1 className='mt-5'>Projects</h1>
+                <div className="section_title">
+                    <h1> Data Science Projects</h1>
+                    <div className="underline"></div>
+                </div>
+
                 {Project_list.map(({img, title, info, content, link}, idx)=>{
                     return(
                         <section className='project_section'>

@@ -1,6 +1,6 @@
 import { requirePropFactory } from '@material-ui/core';
 import React, {useState} from 'react';
-import {QaulificationData, CourseraData, Kaggle, Cousera, UPM, cs50x, Edx, IBM} from './QualificationData';
+import {QaulificationData, CourseraData, Kaggle, Cousera, UPM, cs50x, Edx, IBM, UPM_cert} from './QualificationData';
 import * as MdIcons from "react-icons/md"
 import './qualification.css'
 import { SiDraugiemDotLv } from 'react-icons/si';
@@ -12,7 +12,10 @@ const Qualification = () => {
 
     return (
         <div>
-            <h1 className='mt-5'>Qualification</h1>
+            <div className="section_title">
+                <h1>Qualifications</h1>
+                <div className="underline"></div>
+            </div>
             <section className='container'>
 
                 <div className="row upm_row row_content mt-5">
@@ -22,7 +25,7 @@ const Qualification = () => {
                     </div>
 
                     <div className="col-auto col-md-9">
-                        <img src={cs50x} alt="CS50 Certificate" className='upm_cert' onClick=''/>
+                        <img src={UPM_cert} alt="CS50 Certificate" className='upm_cert'/>
                     </div>
                 </div>
 
@@ -33,7 +36,7 @@ const Qualification = () => {
                     </div>
 
                     <div className="col-auto col-md-9">
-                        <img src={cs50x} alt="CS50 Certificate" className='upm_cert' onClick=''/>
+                        <img src={cs50x} alt="CS50 Certificate" className='upm_cert'/>
                     </div>
                 </div>
 

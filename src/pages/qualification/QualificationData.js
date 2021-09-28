@@ -9,6 +9,7 @@ import PythonforDataScience from './QualificationImg/PythonforDataScience.jpg'
 import WhatisDataScience from './QualificationImg/WhatisDataScience.jpg'
 import PythonProjectforDataScience from './QualificationImg/PythonProjectforDataScience.jpg'
 import Cs50x from './QualificationImg/CS50x.jpg'
+import upm_cert from './QualificationImg/Graduation_Certificate.jpg'
 
 export const QaulificationData = [
     {
@@ -58,6 +59,7 @@ export const CourseraData = [
 ]
 
 export const cs50x = Cs50x
+export const UPM_cert = upm_cert
 export const UPM = 'https://sgs.upm.edu.my/summer-uploads/20171213121134blobid0.jpg'
 export const Kaggle = 'https://cdn.freelogovectors.net/wp-content/uploads/2018/06/kaggle-logo-900x342.png'
 export const Cousera = 'https://about.coursera.org/images/logos/coursera-logo-full-rgb.png'

@@ -13,10 +13,10 @@ const Footer = () => {
                         <h5>Links</h5>
                         <ul className="list-unstyled">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/experience">Experience</a></li>
                             <li><a href="/projects">Projects</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="/experience">Experience</a></li>
                             <li><a href="/qualification">Qualification</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
 
@@ -35,30 +35,30 @@ const Footer = () => {
                         <div class="text-center">
                         <a
                             class="btn btn-social-icon btn-github"
-                            href="http://google.com/+"
+                            href="https://github.com/BryanChin991"
                             ><i class="fa fa-github fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-facebook"
-                            href="http://www.facebook.com/profile.php?id="
+                            href="https://www.facebook.com/hejunchin"
                             ><i class="fa fa-facebook fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-linkedin"
-                            href="http://www.linkedin.com/in/"
+                            href="https://www.linkedin.com/in/fook-hee-chin-121282140"
                             ><i class="fa fa-linkedin fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-twitter"
-                            href="http://twitter.com/"
-                            ><i class="fa fa-twitter fa-lg"></i
+                            href="https://join.skype.com/invite/verL6u4qWNMK"
+                            ><i class="fa fa-skype fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-google"
                             href="http://youtube.com/"
                             ><i class="fa fa-link fa-lg"></i
                         ></a>
-                        <a class="btn btn-social-icon btn-facebook" href="mailto:"
+                        <a class="btn btn-social-icon btn-facebook" href="mailto:hejunchin991@gmail.com"
                             ><i class="fa fa-envelope-o fa-lg"></i
                         ></a>
                         </div>

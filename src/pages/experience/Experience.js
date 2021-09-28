@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { my_experience } from './ExperienceData'
 import Footer from '../footer/Footer'
+import './experience.css'
+import { FaAngleDoubleRight } from 'react-icons/fa'
 
 const Experience = () => {
     const [value, setValue] = useState(0)
@@ -9,31 +11,37 @@ const Experience = () => {
 
     return (
         <>
-            <div className='container mt-5'>
-                <div className="row">
+            <section className='section'>
+                <div className="section_title">
                     <h1>Experience</h1>
+                    <div className="underline"></div>
                 </div>
-
-                <div className="row">
-                    <div className="col-12 col-sm-2">
+            
+                <div className="job-title ">
+                    <div className="btn-container">
                         {my_experience.map((item, idx) =>{
                             return(
-                                <button key={idx} onClick={()=>setValue(idx)}>{item.company}</button>
+                                <button key={idx} onClick={()=>setValue(idx)}
+                                    className={`job-btn ${idx===value && 'active-btn'}`}>{item.company}</button>
                             )
                         })}
                     </div>
 
-                    <div className="col-12 col-sm-10">
-                        <div>{company}</div>
-                        <div>{position}</div>
-                        <div>{year}</div>
-                        {scope.map((s)=>{
-                            return <div> {s} </div>
+                    <article className='job-info'>
+                        <h3>{position}</h3>
+                        <h4>{company}</h4>
+                        <p className='job-year'>{year}</p>
+                        {scope.map((duty, idx)=>{
+                            return(
+                                <div className="job-desc" key={idx}>
+                                    <FaAngleDoubleRight className='job-icon'></FaAngleDoubleRight>
+                                    <p>{duty}</p>
+                                </div>
+                            ) 
                         })}
-                    </div>
-
+                    </article>
                 </div>
-            </div>
+            </section>
             <Footer />
         </>
     )

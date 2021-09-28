@@ -8,6 +8,22 @@
   font-family: "Montserrat";
 }
 
+.section_title {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.underline {
+  width: 6rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: rgb(131, 126, 126);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .signup {
   display: flex;
   /* height: 10vh; */

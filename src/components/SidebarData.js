@@ -4,7 +4,6 @@ import * as FaIcons from "react-icons/fa"
 import * as GiIcons from "react-icons/gi"
 import * as MdIcons from "react-icons/md"
 import * as AiIcons from "react-icons/ai"
-import * as SiIcons from "react-icons/si"
 
 export const SidebarData = [
     {
@@ -14,28 +13,29 @@ export const SidebarData = [
         cName: 'nav-text',
     },
     {
-        title: 'Experiences',
-        path: '/experience',
-        icon: <MdIcons.MdWork />,
-        cName: 'nav-text',
-    },
-    {
         title: 'Projects',
         path: '/projects',
         icon: <AiIcons.AiOutlineFundProjectionScreen />,
         cName: 'nav-text',
     },
     {
-        title: 'About',
-        path: '/about',
-        icon: <SiIcons.SiAboutDotMe />,
+        title: 'Experiences',
+        path: '/experience',
+        icon: <MdIcons.MdWork />,
         cName: 'nav-text',
     },
-    {
+        {
         title: 'Qualification',
         path: '/qualification',
         icon: <GiIcons.GiMedallist />,
         cName: 'nav-text',
     },
+    {
+        title: 'Contact',
+        path: '/contact',
+        icon: <MdIcons.MdContactMail />,
+        cName: 'nav-text',
+    },
+
 
 ]

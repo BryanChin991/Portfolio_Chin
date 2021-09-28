@@ -4,13 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
+  /* margin-top: -50px; */
 }
 
 .container_project {
   width: 90%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +53,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .project_section {
+    margin-top: -80px;
+  }
+
   .container_project {
     flex-direction: column;
     width: 90%;

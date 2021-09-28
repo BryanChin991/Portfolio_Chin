@@ -35,30 +35,37 @@ const Footer = () => {
                         <div class="text-center">
                         <a
                             class="btn btn-social-icon btn-github m-1"
-                            href="https://github.com/BryanChin991"
+                            href="https://github.com/BryanChin991" 
+                            target='_blank'
                             ><i class="fa fa-github fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-facebook m-1"
-                            href="https://www.facebook.com/hejunchin"
+                            href="https://www.facebook.com/hejunchin" 
+                            target='_blank'
                             ><i class="fa fa-facebook fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-linkedin m-1"
-                            href="https://www.linkedin.com/in/fook-hee-chin-121282140"
+                            href="https://www.linkedin.com/in/fook-hee-chin-121282140" 
+                            target='_blank'
                             ><i class="fa fa-linkedin fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-twitter m-1"
                             href="https://join.skype.com/invite/verL6u4qWNMK"
+                            target='_blank'
                             ><i class="fa fa-skype fa-lg"></i
                         ></a>
                         <a
                             class="btn btn-social-icon btn-google m-1"
                             href="http://youtube.com/"
+                            target='_blank'
                             ><i class="fa fa-link fa-lg"></i
                         ></a>
-                        <a class="btn btn-social-icon btn-facebook" href="mailto:hejunchin991@gmail.com"
+                        <a class="btn btn-social-icon btn-facebook" 
+                            href="mailto:hejunchin991@gmail.com"
+                            target='_blank'
                             ><i class="fa fa-envelope-o fa-lg"></i
                         ></a>
                         </div>

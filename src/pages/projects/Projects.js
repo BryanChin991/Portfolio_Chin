@@ -24,7 +24,7 @@ const Projects = () => {
                                     <div className="content">
                                         <h1>{title}</h1>
                                         <p>{content}</p>
-                                        <a href={link} className='btn btn-sm btn-light'>{`Click to ${info} project`}</a>
+                                        <a href={link} className='btn btn-sm btn-light' target='_blank'>{`Click to ${info} project`}</a>
                                     </div>
                                 </div>
                             </div>

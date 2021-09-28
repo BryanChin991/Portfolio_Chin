@@ -34,27 +34,27 @@ const Footer = () => {
                     <div class="col-12 col-sm-4 align-self-center">
                         <div class="text-center">
                         <a
-                            class="btn btn-social-icon btn-github"
+                            class="btn btn-social-icon btn-github m-1"
                             href="https://github.com/BryanChin991"
                             ><i class="fa fa-github fa-lg"></i
                         ></a>
                         <a
-                            class="btn btn-social-icon btn-facebook"
+                            class="btn btn-social-icon btn-facebook m-1"
                             href="https://www.facebook.com/hejunchin"
                             ><i class="fa fa-facebook fa-lg"></i
                         ></a>
                         <a
-                            class="btn btn-social-icon btn-linkedin"
+                            class="btn btn-social-icon btn-linkedin m-1"
                             href="https://www.linkedin.com/in/fook-hee-chin-121282140"
                             ><i class="fa fa-linkedin fa-lg"></i
                         ></a>
                         <a
-                            class="btn btn-social-icon btn-twitter"
+                            class="btn btn-social-icon btn-twitter m-1"
                             href="https://join.skype.com/invite/verL6u4qWNMK"
                             ><i class="fa fa-skype fa-lg"></i
                         ></a>
                         <a
-                            class="btn btn-social-icon btn-google"
+                            class="btn btn-social-icon btn-google m-1"
                             href="http://youtube.com/"
                             ><i class="fa fa-link fa-lg"></i
                         ></a>
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                 <div class="row justify-content-center">
+                 <div class="row justify-content-center mt-2">
                     <div class="col-auto">
                         <p>© Copyright 2021 Chin Fook Hee</p>
                     </div>

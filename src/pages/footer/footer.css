@@ -1,9 +1,8 @@
 footer {
-  background-color: black;
+  background: linear-gradient(180deg, rgb(7, 78, 54), rgb(6, 6, 37));
   color: white;
   margin: 50px 0 0 0;
   padding: 15px 0px;
-  z-index: 9999;
 }
 
 .list-unstyled {

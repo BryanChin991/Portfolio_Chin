@@ -5,6 +5,7 @@ import * as RiIcons from "react-icons/ri"
 import {SidebarData} from './SidebarData'
 import SignUp from '../popup/SignUp';
 import './Navbar.css'
+// import './Navbar001.css'
 import Popup from '../popup/Popup';
 
 const Navbar = () => {
@@ -24,23 +25,6 @@ const Navbar = () => {
                 <Popup title='Sign Up Page' openPopup={openPopUp} setOpenPopUp={setOpenPopUp}/>
             </div>
 
-            <div className="container-fluid navbar fixed-top">
-                <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
-                    <div className='row'>
-                        <div className='col-2 '>
-                        {sidebar ? <RiIcons.RiEyeCloseLine/> : <FaIcons.FaBars />}
-                        </div>
-                    </div>
-                </Link>
-
-                {/* <div className='col header'>
-                    {header ? header : `Welcome`}
-                </div> */}
-                <div className='col header'>
-                    <button className='btn btn-sm btn-dark offset-8 p-0'>{date}/{month}/{year} {time}</button>
-                </div>
-            </div>
-
             {/* click for on and off side bar */}
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className="nav-menu-items ">
@@ -50,12 +34,31 @@ const Navbar = () => {
                                 <li key={idx} className={cName}>
                                     <Link to={path} onClick={()=>{setSidebar(false); setHeader(title)}}>
                                         {icon} 
-                                        <span>{title}</span>
+                                        <span className='item'>{title}</span>
                                     </Link>
                                 </li>
                             )
                         })}
                 </ul>
+
+                <div className="container-fluid navbar fixed-top">
+                    <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
+                        <div className='row'>
+                            <div className='col-10 '>
+                            {sidebar ? <RiIcons.RiEyeCloseLine/> : <FaIcons.FaBars />}
+                            </div>
+                        </div>
+                    </Link>
+
+                    <div className='col-8 header'>
+                        {/* {header ? header : `Welcome`} */}
+                    </div>
+
+                    <div className='col-2 header '>
+                        <p>{date}/{month}/{year} {time}</p>
+                    </div>
+
+                </div>
             </nav>
         </>
     )

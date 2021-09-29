@@ -1,5 +1,5 @@
 import React from 'react';
-import MyResume from './resume/CV_CFH.pdf'
+import MyResume from './resume/Curriculum_Vitae_Chin_Fook Hee_IV.pdf'
 
 const ResumeDownload = () => {
 

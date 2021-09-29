@@ -1,6 +1,6 @@
 import { requirePropFactory } from '@material-ui/core';
 import React, {useState} from 'react';
-import {QaulificationData, CourseraData, Kaggle, Cousera, UPM, cs50x, Edx, IBM, UPM_cert} from './QualificationData';
+import {IBM, QaulificationData, CourseraData, Kaggle, Cousera, UPM, cs50x, Edx, UPM_cert} from './QualificationData';
 import * as MdIcons from "react-icons/md"
 import './qualification.css'
 import { SiDraugiemDotLv } from 'react-icons/si';
@@ -72,7 +72,7 @@ const Qualification = () => {
                                         <MdIcons.MdCancel className='icon' onClick={()=>setimgClicked(null)}/>
                                     </div>
                                     <div className="image-box">
-                                        <img src={img} alt="" />
+                                        <img src={img} alt={description} />
                                     </div>
                                 </div>
                             )

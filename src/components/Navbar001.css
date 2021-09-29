@@ -1,0 +1,41 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(45deg, rgb(7, 78, 54), rgb(6, 6, 37));
+}
+
+/* .navbar {
+  background-color: rgb(6, 24, 16);
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  align-items: center;
+} */
+
+.nav-menu-items {
+  list-style-type: none;
+  background: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.item,
+.nav-text {
+  margin-right: 20px;
+  /* font-size: 20px; */
+  color: white;
+}
+
+.menu-bars {
+  /* display: none; */
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: white;
+  font-size: 18px;
+}

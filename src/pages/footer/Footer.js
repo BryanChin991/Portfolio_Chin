@@ -3,6 +3,9 @@ import * as FaIcons from "react-icons/fa"
 import * as MdIcons from "react-icons/md"
 import * as ImIcons from "react-icons/im"
 import './footer.css'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Home from '../home/Home'
+import Projects from '../projects/Projects'
 
 const Footer = () => {
     return (
@@ -12,11 +15,11 @@ const Footer = () => {
                     <div className="col-4 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/projects">Projects</a></li>
-                            <li><a href="/experience">Experience</a></li>
-                            <li><a href="/qualification">Qualification</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><Link to='/'>Home</Link></li>
+                            <li><Link to='/qualification'>Qualification</Link></li>
+                            <li><Link to='/projects'>Projects</Link></li>
+                            <li><Link to='/experience'>Experience</Link></li>
+                            <li><Link to='/contact'>Contact</Link></li>
                         </ul>
                     </div>
 

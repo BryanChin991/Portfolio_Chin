@@ -32,54 +32,6 @@
   font-size: 3rem;
 }
 
-.slider {
-  position: relative;
-  height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px 60px 0px;
-}
-
-.myImg {
-  margin-top: 30px;
-  width: 900px;
-  height: 550px;
-  border-radius: 10px;
-}
-
-.myImg:hover {
-  transition-duration: 0.75s;
-  transform: scale(1.1);
-}
-
-.right-arrow {
-  z-index: 10;
-  position: absolute;
-  /* top: 50%; */
-  right: 150px;
-  font-size: 5rem;
-  color: lightgray;
-  cursor: pointer;
-  user-select: none;
-}
-
-.right-arrow:hover,
-.left-arrow:hover {
-  color: black;
-}
-
-.left-arrow {
-  z-index: 10;
-  position: absolute;
-  /* top: 50%; */
-  left: 150px;
-  font-size: 5rem;
-  color: lightgray;
-  cursor: pointer;
-  user-select: none;
-}
-
 .slide.active {
   opacity: 1;
   transition-duration: 1s;

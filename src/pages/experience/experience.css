@@ -37,6 +37,10 @@ h2 {
   max-width: 1170px;
 }
 
+.section_title {
+  margin-bottom: 100px;
+}
+
 .job-title {
   width: 80vw;
   margin: 0 auto;
@@ -86,6 +90,8 @@ h2 {
 
 .job-year {
   letter-spacing: var(--spacing);
+  font-style: italic;
+  margin-bottom: 30px;
 }
 
 .job-desc {

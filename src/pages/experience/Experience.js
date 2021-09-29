@@ -3,6 +3,7 @@ import { my_experience } from './ExperienceData'
 import Footer from '../footer/Footer'
 import './experience.css'
 import { FaAngleDoubleRight } from 'react-icons/fa'
+import ResumeDownload from '../resumeDownload/ResumeDownload'
 
 const Experience = () => {
     const [value, setValue] = useState(0)
@@ -15,6 +16,7 @@ const Experience = () => {
                 <div className="section_title">
                     <h1>Experience</h1>
                     <div className="underline"></div>
+                    <ResumeDownload/>
                 </div>
             
                 <div className="job-title ">

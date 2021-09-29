@@ -11,6 +11,12 @@ const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [header, setHeader] = useState('')
     const [openPopUp, setOpenPopUp] = useState(false) // set later to true
+
+    let newDate = new Date()
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
+    let time = newDate.getHours() + ':' + newDate.getMinutes() + ':' + newDate.getSeconds()
     
     return (
         <>
@@ -21,23 +27,23 @@ const Navbar = () => {
             <div className="container-fluid navbar fixed-top">
                 <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
                     <div className='row'>
-                        <div className='col-2'>
+                        <div className='col-2 '>
                         {sidebar ? <RiIcons.RiEyeCloseLine/> : <FaIcons.FaBars />}
                         </div>
                     </div>
                 </Link>
 
-                <div className='col header'>
+                {/* <div className='col header'>
                     {header ? header : `Welcome`}
-                </div>
+                </div> */}
                 <div className='col header'>
-                    <button className='btn btn-sm btn-dark offset-10 p-0'>Logout</button>
+                    <button className='btn btn-sm btn-dark offset-8 p-0'>{date}/{month}/{year} {time}</button>
                 </div>
             </div>
 
             {/* click for on and off side bar */}
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className="nav-menu-items">
+                <ul className="nav-menu-items ">
                         {SidebarData.map((data, idx) =>{
                             const {title, path, icon, cName} = data
                             return(

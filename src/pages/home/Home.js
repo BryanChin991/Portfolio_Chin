@@ -40,12 +40,29 @@ const Home = () => {
                     <h2 style={{textAlign:'center'}}>Hallo, my name is Chin Fook Hee (Bryan)</h2>
                 </div>
 
-                <div className="row row-content">
-                    <div className="col-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis ex sit delectus sapiente explicabo iure fuga officia dolores maxime.</p>
-                    </div>
+                <div className="col-12 row">
+                    <article className="col-md-6 mt-md-5">
+                        <div className="row">
+                            <p className='mb-5'>Key strength in <strong><em> effective communication, data analysis & system improvement</em> </strong>. Enthusiast in programming languages (Python, JavaScript, SQL) and data management, seeking the opportunity to involve in Data Scientist Career.</p>
+                        
+                            <p className=' offset-md-1 mb-5 motto'><em>Adventurous, Curiosity and Never Give up</em></p>
 
-                    <div className="col-6">
+                            <div className="card card-body bg-light">
+                                <blockquote>
+                                    <p ><em>“I’m interested in things that change the world or that affect the future and wondrous, new technology where you see it, and you’re like, ‘Wow, how did that even happen? How is that possible?”</em></p>
+                                    <footer className='blockquote-footer bg-dark text-light mt-2'>
+                                        Elon Musk, 
+                                        <cite title="Source Title">
+                                            founder, CEO, CTO and chief designer of SpaceX
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        
+                        </div>
+                    </article>
+
+                    <div className="col-12 offset-md-1 col-md-5">
                         <img src={my_img} alt="my image" />
                     </div>
                 </div>

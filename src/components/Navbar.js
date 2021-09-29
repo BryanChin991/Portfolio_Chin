@@ -50,8 +50,8 @@ const Navbar = () => {
                         </div>
                     </Link>
 
-                    <div className='col-8 header'>
-                        {/* {header ? header : `Welcome`} */}
+                    <div className='col-8 header' style={{color:'green'}}>
+                        {/* {header} */}
                     </div>
 
                     <div className='col-2 header '>

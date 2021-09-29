@@ -5,7 +5,7 @@ export const Project_list = [
         title: 'Web Scraping',
         info:'Web Scraping',
         content: 'Scraping web information using beautiful soup4 and other useful python libraries.',
-        link: 'https://github.com/BryanChin991/webscrapping'
+        link: 'https://github.com/BryanChin991/webscrapping/blob/main/Abnb/WScrapping_Abnb.py'
     },
     {
         img: 'https://cdn-bnkdn.nitrocdn.com/fkQuZBjrfuGzMIhHhGqXgHnwbulOmzVH/assets/static/optimized/rev-152e6f8/wp-content/uploads/2019/09/airbnb-titles-with-catchy-names.jpg',

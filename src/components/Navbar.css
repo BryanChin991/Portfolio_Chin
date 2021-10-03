@@ -69,8 +69,8 @@ nav {
 }
 
 .nav-text a:hover {
-  background-color: white;
-  color: black;
+  background: white;
+  color: lightgreen;
   font-weight: bold;
   font-style: italic;
 }

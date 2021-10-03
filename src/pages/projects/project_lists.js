@@ -1,6 +1,13 @@
 import Web from './imgs/webDevelopment.PNG'
 export const Project_list = [
     {
+        img: 'https://www.labnol.org/static/54bbf4b9aec6d9fab38a085c20ae1309/b66b9/first-tweets.png',
+        title: 'Text Classfication',
+        info:'Tweeted text classification',
+        content: 'Even wonder how machine learning indentify real disaster tweet posts? Or how it could tells whether you are talking about your sweet happy life or emergency disaster posts which need high attention? ',
+        link: 'https://github.com/BryanChin991/text_classification/blob/main/text-classification.ipynb'
+    },
+    {
         img: 'https://edugrad-out-bucket-production.s3.ap-south-1.amazonaws.com/images/Web_Scraping_using_Python.jpg',
         title: 'Web Scraping',
         info:'Web Scraping',

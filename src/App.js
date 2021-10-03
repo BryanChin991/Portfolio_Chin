@@ -7,6 +7,7 @@ import Qualification from './pages/qualification/Qualification';
 import Projects from './pages/projects/Projects';
 import Experience from './pages/experience/Experience';
 import Contact from './pages/contact/Contact';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   // Navbar with react-router-dom
@@ -14,6 +15,7 @@ function App() {
     <>
     <Router>
       <Navbar/>
+      <ScrollToTop/>
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/qualification' exact component={Qualification} />

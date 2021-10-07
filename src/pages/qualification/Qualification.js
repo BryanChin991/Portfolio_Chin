@@ -35,7 +35,10 @@ const Qualification = () => {
                 <div className="row upm_row row_content">
                     <div className="col-12 col-md-3 col_content">
                         <div className="row mb-5"><img src={Edx} alt="EDx" /></div>
-                        <div className="row">Harvard University's introduction to the intellectual enterprises of computer science and the art of programming </div>
+                        <div className="row">Harvard University's introduction to the intellectual enterprises of computer science 
+                            and the art of programming. 
+                            <a className='p-0' href='https://www.edx.org/search?subject=Computer%20Science&subject=Data%20Analysis%20%26%20Statistics&tab=course' target='_blank'>Click to learn more</a>
+                        </div>
                     </div>
 
                     <div className="col-auto col-md-9">
@@ -46,7 +49,11 @@ const Qualification = () => {
                 <div className='row row_content'>
                     <div className='row_desc'>
                         <img src={Kaggle} alt="" className='ImgTitle'/>
-                        <p> Is an online community of data scientists and machine learning practitioners. Allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.<br/> <em><strong>(Click the image to zoom in)</strong></em></p>
+                        <p> Is an online community of data scientists and machine learning practitioners. 
+                            Allows users to find and publish data sets, explore and build models in a web-based data-science environment, 
+                            work with other data scientists and machine learning engineers, and enter competitions to solve data science 
+                            challenges. <a href='https://www.kaggle.com/' target='_blank'>Click to learn more</a>
+                            <br/> <em><strong>(Click the image to zoom in)</strong></em></p>
                     </div>
                     <div className='image-grid'>
                         {QaulificationData.map(({img, description}, idx)=>{
@@ -90,7 +97,13 @@ const Qualification = () => {
                                 <img src={IBM} alt="" className='ImgTitle ibm_size'/>
                             </div>
                         </div>
-                        <p>The program consists of 9 online courses equip with the latest job-ready tools and skills, including open source tools and libraries, Python, databases, SQL, data visualization, data analysis, statistical analysis, predictive modeling, and machine learning algorithms. This Professional Certificate has a strong emphasis on applied learning, learn data science through hands-on practice in the IBM Cloud using real data science tools and real-world data sets.<br/> <em><strong>(Click the image to zoom in)</strong></em></p>
+                        <p>The program consists of 9 online courses equip with the latest job-ready tools and skills, 
+                            including open source tools and libraries, Python, databases, SQL, data visualization, 
+                            data analysis, statistical analysis, predictive modeling, and machine learning algorithms. 
+                            This Professional Certificate has a strong emphasis on applied learning, learn data science 
+                            through hands-on practice in the IBM Cloud using real data science tools and real-world data sets. 
+                            <a href='https://www.coursera.org/professional-certificates/ibm-data-science' target='_blank'>Click to learn more</a>
+                            <br/> <em><strong>(Click the image to zoom in)</strong></em></p>
                     </div>
 
                     <div className='image-grid'>

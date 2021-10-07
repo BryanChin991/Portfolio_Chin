@@ -24,10 +24,16 @@ export const SidebarData = [
         icon: <MdIcons.MdWork />,
         cName: 'nav-text',
     },
-        {
+    {
         title: 'Qualification',
         path: '/qualification',
         icon: <GiIcons.GiMedallist />,
+        cName: 'nav-text',
+    },
+    {
+        title: 'About Me',
+        path: '/about',
+        icon: <MdIcons.MdQuestionAnswer/>,
         cName: 'nav-text',
     },
     {

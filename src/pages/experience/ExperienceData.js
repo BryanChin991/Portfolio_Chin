@@ -3,12 +3,12 @@ export const my_experience = [
         'id': 1,
         'order': 3,
         'company': 'Self-Taught',
-        'position': 'Self-Taught Data Scientist and Programmer',
+        'position': 'Self-Taught Data Science and Programmer',
         'year': 'Oct 2020 – present',
         'scope': [
             'Participated in Kaggle competition (the world’s largest community of data scientists), and finished at top 19% out of 7573 teams by building an XGBRegressor model with k-fold technique, Optuna framework and feature engineering and many more',
             'Web scraping projects. From data collection, to data cleaning, to data analysis using beautiful soup4 and other useful python libraries.',
-            'Website development using ReactJS, html and css. You are looking at it right now.',
+            'Website development using ReactJS, html and css. This very website is the example of my website development project.',
             'Successfully obtained professional certificates in Python and Data Science. Please check on Qualification page for more.',
             'Certificate of completion in Kaggle’s courses (Intro to Machine Learning, Intermediate Machine Learning, Data Visualization, Data Cleaning and many more). Please check on Qualification page for more.'
 

@@ -1,0 +1,33 @@
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.about-me-single {
+  border-radius: 0.25rem;
+  margin: 2rem 0 5rem 0;
+  box-shadow: 0 30px 30px rgba(5, 83, 47, 0.1);
+  transition: all 0.3s linea;
+}
+
+.question {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.text {
+  font-size: large;
+  padding: 0 2rem 2rem 2rem;
+}
+
+a {
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}

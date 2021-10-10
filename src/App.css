@@ -13,6 +13,9 @@
   margin-bottom: 4rem;
   padding-top: 2rem;
   text-align: center;
+  background: url("https://i.pinimg.com/originals/a3/cf/90/a3cf9014985567b3a4455768e41f80dd.jpg")
+    no-repeat;
+  background-size: 100% 150%;
 }
 
 .underline {
@@ -30,17 +33,6 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
-
-.slide.active {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
-}
-
-.slide {
-  opacity: 0;
-  transition-duration: 1s ease;
 }
 
 img {

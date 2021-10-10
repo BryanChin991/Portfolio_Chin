@@ -12,13 +12,13 @@ const Experience = () => {
 
     return (
         <>
+            <div className="section_title">
+                <h1>Experience</h1>
+                <div className="underline"></div>
+                <ResumeDownload/>
+            </div>
+
             <section className='section'>
-                <div className="section_title">
-                    <h1>Experience</h1>
-                    <div className="underline"></div>
-                    <ResumeDownload/>
-                </div>
-            
                 <div className="job-title ">
                     <div className="btn-container">
                         {my_experience.map((item, idx) =>{

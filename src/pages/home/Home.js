@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {MyImage} from './AboutMeImageData'
 import * as Cgcons from "react-icons/cg"
 import { Slide } from '@material-ui/core'
@@ -21,8 +21,15 @@ const Home = () => {
 
     console.log(current)
 
+    useEffect(()=>{
+        let slider = setInterval(()=>{
+            setCurrent(current===MyImage.length-1 ? 0 : current+1)
+        },5000)
+        return ()=>clearInterval(slider)
+    },[current])
+
     return (
-        <>
+        <div>
             <div className='slider'>
                 <Cgcons.CgChevronDoubleLeft className='left-arrow' onClick={leftClick}/>
                 <Cgcons.CgChevronDoubleRight className='right-arrow' onClick={RightClick}/>
@@ -37,17 +44,17 @@ const Home = () => {
 
             <div className="container">
                 <div className="row name">
-                    <h2 style={{textAlign:'center'}}>Hallo, my name is Chin Fook Hee (Bryan)</h2>
+                    <h1 style={{textAlign:'center'}}>Hallo, my name is <strong>Chin Fook Hee </strong>(Bryan)</h1>
                 </div>
 
                 <div className="col-12 row">
                     <article className="col-md-6 mt-md-5">
                         <div className="row">
-                            <p className='mb-5'>Key strength in <strong><em> effective communication, data analysis & system improvement</em> </strong>. Enthusiast in programming languages (Python, JavaScript, SQL) and data management, seeking the opportunity to involve in Data Scientist Career.</p>
+                            <p className='mb-5 offset-1'>Key strength in <strong><em> effective communication, data analysis & system improvement</em> </strong>. Enthusiast in programming languages (Python, JavaScript, SQL) and data management, seeking the opportunity to involve in Data Scientist Career.</p>
                         
-                            <p className=' offset-md-1 mb-5 motto'><em>Adventurous, Curiosity and Never Give up</em></p>
+                            <p className='mb-5 motto offset-1'><em>Adventurous, Curiosity and <br/>Never Give up</em></p>
 
-                            <div className="card card-body bg-light">
+                            <div className="card card-body bg-light offset-1 mb-5">
                                 <blockquote>
                                     <p ><em>“I’m interested in things that change the world or that affect the future and wondrous, new technology where you see it, and you’re like, ‘Wow, how did that even happen? How is that possible?”</em></p>
                                     <footer className='blockquote-footer bg-dark text-light mt-2'>
@@ -63,13 +70,13 @@ const Home = () => {
                     </article>
 
                     <div className="col-12 offset-md-1 col-md-5">
-                        <img src={my_img} alt="my image" />
+                        <img src={my_img} className='pic' alt="my image" />
                     </div>
                 </div>
             </div>
 
             <Footer />
-        </>
+        </div>
     )
 }
 

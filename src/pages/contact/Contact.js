@@ -4,13 +4,12 @@ import Footer from '../footer/Footer'
 const Contact = () => {
     return (
         <>
-            <div className='container'>
-                <div className="section_title">
-                    <h1> Contact Me</h1>
-                    <div className="underline"></div>
-                </div>
-                
+            <div className="section_title">
+                <h1> Contact Me</h1>
+                <div className="underline"></div>
+            </div>
 
+            <div className='container'>
                 <div className="row">
                     <div class="col-12 col-sm-5">
                         <h3>Location Information</h3>

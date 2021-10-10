@@ -11,6 +11,9 @@ export const MyImage =[
     {
         img: 'https://scontent.fkul8-1.fna.fbcdn.net/v/t1.6435-9/89254800_10222484279322764_5815565918431870976_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFw0-4NEePG3hsl5w879JDCkGIaBxGfUhuQYhoHEZ9SG2xoLBjJNua5UE884Ld1euI&_nc_ohc=Ow-b6Ny6QAAAX9foosw&_nc_ht=scontent.fkul8-1.fna&oh=1afa8b27199903cc97886194f5f02d83&oe=6178D320'
     },
+    {
+        img: 'https://scontent.fkul13-1.fna.fbcdn.net/v/t31.18172-8/23405874_1499370316842909_7703993325338136244_o.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGxTd10O7P1rwjlIUzZ-upnIpTIdDu2o7oilMh0O7ajulMhctegc1jtHXm9cMV0kYs&_nc_ohc=eJu3dKJuOMYAX97jySu&_nc_ht=scontent.fkul13-1.fna&oh=61c38aad7ffc15be614e0e2123940abd&oe=6189C8CD'
+    },
     
     
 

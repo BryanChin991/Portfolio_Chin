@@ -12,13 +12,17 @@ const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [header, setHeader] = useState('')
     const [openPopUp, setOpenPopUp] = useState(false) // set later to true
+    const [dt, setDt] = useState(new Date().toLocaleString());
 
-    let newDate = new Date()
-    let date = newDate.getDate();
-    let month = newDate.getMonth() + 1;
-    let year = newDate.getFullYear();
-    let time = newDate.getHours() + ':' + newDate.getMinutes() + ':' + newDate.getSeconds()
-    
+
+    useEffect(()=>{
+        let secTImer = setInterval(()=>{
+            setDt(new Date().toLocaleString())
+        },1000)
+        
+        return ()=> clearInterval(secTImer)
+    },[])
+
     return (
         <>
             <div className='home'>
@@ -44,18 +48,18 @@ const Navbar = () => {
                 <div className="container-fluid navbar fixed-top">
                     <Link to='#' className='menu-bars' onClick={()=>setSidebar(!sidebar)}>
                         <div className='row'>
-                            <div className='col-10 '>
+                            <div className='col-10'>
                             {sidebar ? <RiIcons.RiEyeCloseLine/> : <FaIcons.FaBars />}
                             </div>
                         </div>
                     </Link>
 
-                    <div className='col-8 header' style={{color:'green'}}>
+                    <div className='col-3 col-md-9 header'>
                         {/* {header} */}
                     </div>
 
-                    <div className='col-2 header '>
-                        <p>{date}/{month}/{year} {time}</p>
+                    <div className='mr-auto header'>
+                        {dt}
                     </div>
 
                 </div>

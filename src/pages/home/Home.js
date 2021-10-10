@@ -4,6 +4,7 @@ import * as Cgcons from "react-icons/cg"
 import { Slide } from '@material-ui/core'
 import './home.css'
 import Footer from '../footer/Footer'
+import video001 from './video/video001.mp4'
 
 const my_img = 'https://scontent.fkul13-1.fna.fbcdn.net/v/t1.18169-9/11954701_10207934638350833_7438649839304062851_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGBPRKNRG3-FhOPxgkt1JKE_iyl6Q1gZZ7-LKXpDWBlnmXvVqY-pqX2B4mDzR1LHvk&_nc_ohc=dTX_pzzy-RYAX_SyRJy&_nc_ht=scontent.fkul13-1.fna&oh=a5728df2411a7ba123be9fc5d9758af2&oe=6171CB16'
     
@@ -73,6 +74,12 @@ const Home = () => {
                         <img src={my_img} className='pic' alt="my image" />
                     </div>
                 </div>
+            </div>
+
+            <div>
+                 <video loop={true} autoPlay={true} muted={true} className='video'>
+                    <source src={video001} type="video/mp4" />
+                </video>
             </div>
 
             <Footer />

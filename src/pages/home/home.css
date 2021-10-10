@@ -7,7 +7,7 @@
   margin: 50px 0px 60px 0px;
   background: url("https://i.pinimg.com/originals/a3/cf/90/a3cf9014985567b3a4455768e41f80dd.jpg")
     no-repeat;
-  background-size: 1500px 500px;
+  background-size: 100% 500px;
 }
 
 .myImg {
@@ -87,4 +87,14 @@ p {
 .pic {
   border-radius: 20px;
   margin-left: 20px;
+}
+
+.video {
+  margin-top: 10px;
+  margin-bottom: -55px;
+  position: relative;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
 }

@@ -9,6 +9,7 @@ import Experience from './pages/experience/Experience';
 import Contact from './pages/contact/Contact';
 import ScrollToTop from './ScrollToTop';
 import About from './pages/about/About';
+import ML from './pages/ml/ML';
 
 function App() {
   // Navbar with react-router-dom
@@ -24,6 +25,7 @@ function App() {
         <Route path='/experience' exact component={Experience} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/about' exact component={About} />
+        <Route path='/ml' exact component={ML} />
 
       </Switch>
     </Router>

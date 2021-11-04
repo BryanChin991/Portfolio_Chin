@@ -4,6 +4,7 @@ import * as FaIcons from "react-icons/fa"
 import * as GiIcons from "react-icons/gi"
 import * as MdIcons from "react-icons/md"
 import * as AiIcons from "react-icons/ai"
+import * as BiIcons from "react-icons/bi"
 
 export const SidebarData = [
     {
@@ -16,6 +17,12 @@ export const SidebarData = [
         title: 'Projects',
         path: '/projects',
         icon: <AiIcons.AiOutlineFundProjectionScreen />,
+        cName: 'nav-text',
+    },
+    {
+        title: 'Machine Learning',
+        path: '/ml',
+        icon: <BiIcons.BiNetworkChart />,
         cName: 'nav-text',
     },
     {

@@ -1,18 +1,19 @@
 import Web from './imgs/webDevelopment.PNG'
 export const Project_list = [
-    {
-        img: 'https://miro.medium.com/max/966/1*rnko_Sy3iEQ-sUbzmU4A-A.png',
-        title: 'Text Classfication 2',
-        info:'Labeling Sentences for Article',
-        content: 'This project show the Natural Langauge Processing (NLP) steps such as word tokenization, lemmatization, stop words and etc. At the end, I will perform various Machine Learning model to predict the unlabeled article. ',
-        link: 'https://gist.github.com/BryanChin991/f269ed58c4ad0da5c3d4f2573d7fc597'
-    },
+
     {
         img: 'https://www.labnol.org/static/54bbf4b9aec6d9fab38a085c20ae1309/b66b9/first-tweets.png',
         title: 'Text Classfication',
         info:'Tweeted text classification',
         content: 'Even wonder how machine learning indentify real disaster tweet posts? Or how it could tells whether you are talking about your sweet happy life or emergency disaster posts which need high attention? ',
         link: 'https://github.com/BryanChin991/text_classification/blob/main/text-classification.ipynb'
+    },
+    {
+        img: 'https://miro.medium.com/max/966/1*rnko_Sy3iEQ-sUbzmU4A-A.png',
+        title: 'Text Classfication 2',
+        info:'Labeling Sentences for Article',
+        content: 'This project show the Natural Langauge Processing (NLP) steps such as word tokenization, lemmatization, stop words and etc. At the end, I will perform various Machine Learning model to predict the unlabeled article. ',
+        link: 'https://gist.github.com/BryanChin991/f269ed58c4ad0da5c3d4f2573d7fc597'
     },
     {
         img: 'https://edugrad-out-bucket-production.s3.ap-south-1.amazonaws.com/images/Web_Scraping_using_Python.jpg',

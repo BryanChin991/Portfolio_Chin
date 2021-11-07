@@ -38,4 +38,10 @@ export const Unsupervised = [
       content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, aperiam.',
       link: 'https://github.com/BryanChin991/Machine-Learning-Python/blob/main/KMeans.ipynb'
     },
+    {
+      img: 'https://miro.medium.com/max/1570/1*0pP2fZwuT0B9ndRF4FPEtw.png',
+      title: 'Autoencoder',
+      content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, aperiam.',
+      link: 'https://github.com/BryanChin991/Machine-Learning-Python/blob/main/Autoencoder.ipynb'
+    },
 ]

@@ -2,6 +2,13 @@ import Web from './imgs/webDevelopment.PNG'
 export const Project_list = [
 
     {
+        img: 'https://miro.medium.com/max/1200/1*F_yiILIE954AZPgPADx76A.png',
+        title: 'Anomaly detection using Autoencoder',
+        info:'Anomaly detection',
+        content: 'This project is to build an Autoencoder neural network model to detect anomalies on ECG dataset. The result was plot in confusion matrix with 95% of model accuracy.',
+        link: 'https://github.com/BryanChin991/Machine-Learning-Python/blob/main/Anomaly_detection.ipynb'
+    },
+    {
         img: 'https://www.labnol.org/static/54bbf4b9aec6d9fab38a085c20ae1309/b66b9/first-tweets.png',
         title: 'Text Classfication',
         info:'Tweeted text classification',

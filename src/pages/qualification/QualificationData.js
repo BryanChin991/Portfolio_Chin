@@ -8,6 +8,8 @@ import IntrotoSQL from './QualificationImg/IntrotoSQL.png';
 import PythonforDataScience from './QualificationImg/PythonforDataScience.jpg'
 import WhatisDataScience from './QualificationImg/WhatisDataScience.jpg'
 import PythonProjectforDataScience from './QualificationImg/PythonProjectforDataScience.jpg'
+import DataVisualizationPython from './QualificationImg/DataVisualizationPython.jpg'
+import DataAnalysisPython from './QualificationImg/DataAnalysisPython.jpg'
 import Cs50x from './QualificationImg/CS50x.jpg'
 import upm_cert from './QualificationImg/Graduation_Certificate.jpg'
 
@@ -55,6 +57,14 @@ export const CourseraData = [
     {
         img: PythonProjectforDataScience,
         description: 'Python Project for Data Science'
+    },
+    {
+        img: DataAnalysisPython,
+        description: 'Data Analysis With Python'
+    },
+    {
+        img: DataVisualizationPython,
+        description: 'Data Visualization With Python'
     },
 ]
 
